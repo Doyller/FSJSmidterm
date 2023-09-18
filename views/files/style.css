@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  max-width: 100%;
+}
+
+header nav {
+  margin-left: auto;
+  display: flex;
+}
+
+nav a {
+  margin: 16px 16px 0 0;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.65);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+
+#box {
+  border: 2px solid rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.15);
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  margin: 42px auto;
+  padding: 16px 32px;
+}
+
+.form {
+  margin: auto;
+}
+
+.submit-button {
+  display: flex;
+}
+
+input {
+  margin: 12px auto;
+}
+
+.title {
+  margin: auto 32px;
+}
